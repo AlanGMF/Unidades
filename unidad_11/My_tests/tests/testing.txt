@@ -1,0 +1,181 @@
+
+******************TESTING**************************
+11/01/2022, 14:24:41
+
+test_dividir_dos_numeros (test_calculadora.TestCalculadora) ... ERROR
+test_multiplicar_dos_numeros (test_calculadora.TestCalculadora) ... ERROR
+test_restar_dos_numeros (test_calculadora.TestCalculadora) ... ERROR
+test_sumar_dos_numeros (test_calculadora.TestCalculadora) ... ERROR
+
+======================================================================
+ERROR: test_dividir_dos_numeros (test_calculadora.TestCalculadora)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Alan\CarpetaVSC\tiimiit_alkemy_bootcamp\unidad_11\My_tests\test_calculadora.py", line 62, in test_dividir_dos_numeros
+    self.assertEqual(funciones.dividir_dos_numeros(self.numero_int, 0), None)
+AttributeError: module 'funciones' has no attribute 'dividir_dos_numeros'
+
+======================================================================
+ERROR: test_multiplicar_dos_numeros (test_calculadora.TestCalculadora)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Alan\CarpetaVSC\tiimiit_alkemy_bootcamp\unidad_11\My_tests\test_calculadora.py", line 68, in test_multiplicar_dos_numeros
+    self.assertEqual(funciones.multiplicar_dos_numeros(self.numero_int, self.letra_str), None)
+AttributeError: module 'funciones' has no attribute 'multiplicar_dos_numeros'
+
+======================================================================
+ERROR: test_restar_dos_numeros (test_calculadora.TestCalculadora)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Alan\CarpetaVSC\tiimiit_alkemy_bootcamp\unidad_11\My_tests\test_calculadora.py", line 56, in test_restar_dos_numeros
+    self.assertEqual(funciones.restar_dos_numeros(self.numero_int, self.letra_str), None)
+AttributeError: module 'funciones' has no attribute 'restar_dos_numeros'
+
+======================================================================
+ERROR: test_sumar_dos_numeros (test_calculadora.TestCalculadora)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Alan\CarpetaVSC\tiimiit_alkemy_bootcamp\unidad_11\My_tests\test_calculadora.py", line 49, in test_sumar_dos_numeros
+    self.assertEqual(funciones.sumar_dos_numeros(self.numero_int, self.letra_str), None)
+AttributeError: module 'funciones' has no attribute 'sumar_dos_numeros'
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.003s
+
+FAILED (errors=4)
+
+******************TESTING**************************
+11/01/2022, 14:27:10
+
+test_dividir_dos_numeros (test_calculadora.TestCalculadora) ... ERROR
+test_multiplicar_dos_numeros (test_calculadora.TestCalculadora) ... ERROR
+test_restar_dos_numeros (test_calculadora.TestCalculadora) ... ERROR
+test_sumar_dos_numeros (test_calculadora.TestCalculadora) ... ERROR
+
+======================================================================
+ERROR: test_dividir_dos_numeros (test_calculadora.TestCalculadora)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Alan\CarpetaVSC\tiimiit_alkemy_bootcamp\unidad_11\My_tests\test_calculadora.py", line 57, in test_dividir_dos_numeros
+    self.assertEqual(funciones.dividir_dos_numeros(self.numero_int, 0), None)
+AttributeError: module 'funciones' has no attribute 'dividir_dos_numeros'
+
+======================================================================
+ERROR: test_multiplicar_dos_numeros (test_calculadora.TestCalculadora)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Alan\CarpetaVSC\tiimiit_alkemy_bootcamp\unidad_11\My_tests\test_calculadora.py", line 63, in test_multiplicar_dos_numeros
+    self.assertEqual(funciones.multiplicar_dos_numeros(self.numero_int, self.letra_str), None)
+AttributeError: module 'funciones' has no attribute 'multiplicar_dos_numeros'
+
+======================================================================
+ERROR: test_restar_dos_numeros (test_calculadora.TestCalculadora)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Alan\CarpetaVSC\tiimiit_alkemy_bootcamp\unidad_11\My_tests\test_calculadora.py", line 51, in test_restar_dos_numeros
+    self.assertEqual(funciones.restar_dos_numeros(self.numero_int, self.letra_str), None)
+AttributeError: module 'funciones' has no attribute 'restar_dos_numeros'
+
+======================================================================
+ERROR: test_sumar_dos_numeros (test_calculadora.TestCalculadora)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Alan\CarpetaVSC\tiimiit_alkemy_bootcamp\unidad_11\My_tests\test_calculadora.py", line 44, in test_sumar_dos_numeros
+    self.assertEqual(funciones.sumar_dos_numeros(self.numero_int, self.letra_str), None)
+AttributeError: module 'funciones' has no attribute 'sumar_dos_numeros'
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.004s
+
+FAILED (errors=4)
+
+******************TESTING**************************
+11/01/2022, 14:27:55
+
+test_dividir_dos_numeros (test_calculadora.TestCalculadora) ... ERROR
+test_multiplicar_dos_numeros (test_calculadora.TestCalculadora) ... ERROR
+test_restar_dos_numeros (test_calculadora.TestCalculadora) ... ERROR
+test_sumar_dos_numeros (test_calculadora.TestCalculadora) ... ERROR
+
+======================================================================
+ERROR: test_dividir_dos_numeros (test_calculadora.TestCalculadora)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Alan\CarpetaVSC\tiimiit_alkemy_bootcamp\unidad_11\My_tests\test_calculadora.py", line 57, in test_dividir_dos_numeros
+    self.assertEqual(funciones.dividir_dos_numeros(self.numero_int, 0), None)
+AttributeError: module 'funciones' has no attribute 'dividir_dos_numeros'
+
+======================================================================
+ERROR: test_multiplicar_dos_numeros (test_calculadora.TestCalculadora)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Alan\CarpetaVSC\tiimiit_alkemy_bootcamp\unidad_11\My_tests\test_calculadora.py", line 63, in test_multiplicar_dos_numeros
+    self.assertEqual(funciones.multiplicar_dos_numeros(self.numero_int, self.letra_str), None)
+AttributeError: module 'funciones' has no attribute 'multiplicar_dos_numeros'
+
+======================================================================
+ERROR: test_restar_dos_numeros (test_calculadora.TestCalculadora)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Alan\CarpetaVSC\tiimiit_alkemy_bootcamp\unidad_11\My_tests\test_calculadora.py", line 51, in test_restar_dos_numeros
+    self.assertEqual(funciones.restar_dos_numeros(self.numero_int, self.letra_str), None)
+AttributeError: module 'funciones' has no attribute 'restar_dos_numeros'
+
+======================================================================
+ERROR: test_sumar_dos_numeros (test_calculadora.TestCalculadora)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Alan\CarpetaVSC\tiimiit_alkemy_bootcamp\unidad_11\My_tests\test_calculadora.py", line 44, in test_sumar_dos_numeros
+    self.assertEqual(funciones.sumar_dos_numeros(self.numero_int, self.letra_str), None)
+AttributeError: module 'funciones' has no attribute 'sumar_dos_numeros'
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.003s
+
+FAILED (errors=4)
+
+******************TESTING**************************
+11/01/2022, 14:35:28
+
+test_dividir_dos_numeros (test_calculadora.TestCalculadora) ... ok
+test_multiplicar_dos_numeros (test_calculadora.TestCalculadora) ... ok
+test_restar_dos_numeros (test_calculadora.TestCalculadora) ... ok
+test_sumar_dos_numeros (test_calculadora.TestCalculadora) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.003s
+
+OK
+
+******************TESTING**************************
+11/01/2022, 14:48:05
+
+test_dividir_dos_numeros (test_calculadora.TestCalculadora) ... ok
+test_multiplicar_dos_numeros (test_calculadora.TestCalculadora) ... ok
+test_restar_dos_numeros (test_calculadora.TestCalculadora) ... ok
+test_sumar_dos_numeros (test_calculadora.TestCalculadora) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.003s
+
+OK
+
+******************TESTING**************************
+11/01/2022, 16:31:44
+
+test_sumar_dos_numeros (test_calculadora.TestCalculadora) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+
+******************TESTING**************************
+11/01/2022, 16:32:25
+
+test_sumar_dos_numeros (test_calculadora.TestCalculadora) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK

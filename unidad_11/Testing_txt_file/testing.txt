@@ -1,0 +1,21 @@
+
+******************TESTING**************************
+11/01/2022, 11:09:17
+test_fruit_is_in (__main__.MyTests) ... ok
+test_hola (__main__.MyTests) ... FAIL
+
+======================================================================
+FAIL: test_hola (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Alan\CarpetaVSC\tiimiit_alkemy_bootcamp\unidad_11\ejemplo\test.py", line 12, in test_hola
+    self.assertEqual(valid_word, to_check)
+AssertionError: 'Hola' != 'Chau'
+- Hola
++ Chau
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.003s
+
+FAILED (failures=1)
