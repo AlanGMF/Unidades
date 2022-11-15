@@ -4,6 +4,8 @@ from sqlalchemy import Column
 from db import Base
 
 class Customer(Base):
+    """Model Customer table
+    """
     __tablename__ = 'customer'
     
     name = Column(String)
