@@ -1,0 +1,8 @@
+2022-11-16T12:38:29-0300 - INFO -convercion exitosa: Frutilla ---> frutilla
+2022-11-16T12:38:29-0300 - INFO -convercion exitosa: Melón ---> melón
+2022-11-16T12:38:29-0300 - INFO -convercion exitosa: PERA ---> pera
+2022-11-16T12:38:29-0300 - ERROR -convercion fallida: 99.6
+2022-11-16T12:38:29-0300 - INFO -convercion exitosa: NaranJA ---> naranja
+2022-11-16T12:38:29-0300 - INFO -convercion exitosa: mORa ---> mora
+2022-11-16T12:38:29-0300 - INFO -convercion exitosa: NisPERo ---> nispero
+2022-11-16T12:38:29-0300 - ERROR -convercion fallida: 99
