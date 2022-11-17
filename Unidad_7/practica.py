@@ -11,13 +11,13 @@ class Empleados ():
                 ):
         """Instancia un objeto de la clase Empleados
 
-        :param nombre: _description_
+        :param nombre: Nombre del empleado
         :type nombre: str
-        :param apellido: _description_
+        :param apellido: Apellido del empleado
         :type apellido: str
-        :param fecha_nacimiento: _description_
+        :param fecha_nacimiento: fecha de nacimiento del empleado
         :type fecha_nacimiento: str
-        :param nro_dni: _description_
+        :param nro_dni: Nro DNI del empleado
         :type nro_dni: int
         """
         self.nombre = nombre
