@@ -1,29 +1,32 @@
 
+def get_transport(list: list[str]) -> str:
+    """Returns the value found in a given list,
+     otherwise the same function is returned.
 
-MI_TRANSPORTE = ['auto', 'avión', 'barco', 'bicicleta', 'ómnibus']
-
-
-def obtener_transporte() -> str:
-
+    :return: the values 
+    :rtype: str
+    """
     try:
         index = int(input("Ingrese un indice "))
     except ValueError as err:
         print(err)
         print("Intene nuevamente")
-        return obtener_transporte()
+        return get_transport(list)
 
     else:
         try:
-            transporte = MI_TRANSPORTE[index]
+            transporte = list[index]
         except IndexError as err:
             print(err)
             print("Intene nuevamente")
-            return obtener_transporte()
+            return get_transport(list)
         else:
             return transporte
 
 
 if __name__ == "__main__":
-    print(obtener_transporte())
+
+    MI_TRANSPORTE = ['auto', 'avión', 'barco', 'bicicleta', 'ómnibus']
+    print(get_transport(MI_TRANSPORTE))
 
 
