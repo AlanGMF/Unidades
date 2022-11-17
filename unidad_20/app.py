@@ -37,3 +37,6 @@ order_data = list(usa_gold_medals.itertuples(index=False, name=None))
 cursor.executemany("INSERT INTO medals VALUES (?, ?, ?, ?, ?, ?, ?, ?)", order_data)
 
 conn.commit()
+
+# Se cierra la conexión
+conn.close()
