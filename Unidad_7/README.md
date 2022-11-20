@@ -26,3 +26,5 @@ Atributos:
                 ○ Ejemplo: “Hola, soy Juan Pérez. Nací el 01/01/1986 y ni DNI es 12345678”
 
 ● Documentar el módulo y las funciones utilizando Docstring y de ser posible implementar Sphinx para documentar el mismo.
+
+# Resolucion
