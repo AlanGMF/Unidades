@@ -17,6 +17,13 @@ variables descriptivas.
 import generator
 
 def contador_de_caracteres(palabras: list[str]) -> list:
+    """_summary_
+
+    :param palabras: Words to be processed
+    :type palabras: list[str]
+    :return: Chars' count per word
+    :rtype: list
+    """
     
     # Se inicializa la lista que tendra
     # el numero de caracteres    
