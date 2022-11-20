@@ -1,23 +1,8 @@
 
-"""
-Utilizando los conceptos aprendidos en el módulo 6 - Comentarios en
-Python, resolver el siguiente ejercicio.
-Desarrollar una función que reciba una lista con varias palabras y que
-retorne otra lista con la cantidad de caracteres de cada una de ellas.
-
-Ejemplo:
-
-● lista_inicial = ["perro", "elefante", "dragón"]
-● lista_retorno = [5, 8, 6]
-
-Comentar la función de forma adecuada y utilizar nombres de
-variables descriptivas.
-"""
-
-import generator
 
 def contador_de_caracteres(palabras: list[str]) -> list:
-    """_summary_
+    """receives a list of words and returns a list with 
+    the number of characters in each word
 
     :param palabras: Words to be processed
     :type palabras: list[str]
@@ -43,5 +28,5 @@ if __name__ == '__main__':
         "perro", "elefante"
         ]
     
-    print(contador_de_caracteres(lista_inicial))
     print(lista_inicial)
+    print(contador_de_caracteres(lista_inicial))
