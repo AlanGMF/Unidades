@@ -5,8 +5,9 @@ logging.basicConfig(
     filename="unidad_3/logs/results.log",
     filemode="a",
     format='%(asctime)s - %(levelname)s -%(message)s',
-    datefmt= "%Y-%m-%dT%H:%M:%S%z"
+    datefmt="%Y-%m-%dT%H:%M:%S%z"
 )
+
 
 def get_lower_words(words: list[str]):
     for word in words:
@@ -17,10 +18,17 @@ def get_lower_words(words: list[str]):
         else:
             logging.info(f"convercion exitosa: {word} ---> {lower_word}")
 
-        
+
 if __name__ == "__main__":
 
-    fruits = ['Frutilla','Melón','PERA',99.6,'NaranJA', 'mORa', 'NisPERo',99]
+    fruits = [
+            'Frutilla',
+            'Melón',
+            'PERA',
+            99.6,
+            'NaranJA',
+            'mORa',
+            'NisPERo',
+            99
+        ]
     get_lower_words(fruits)
-    
-    
