@@ -29,4 +29,4 @@ Atributos:
 
 # Resolucion
 
-Se deja la resolucion de los puntos 1 y 2 en esta [carpeta](https://github.com/AlanGMF/Unidades/blob/main/Unidad_7/Sphinx/source/practica.py) y la documentacion generada con Sphinx en esta [otra](https://github.com/AlanGMF/Unidades/blob/main/Unidad_7/Sphinx/_build/html)
+Se deja la resolucion de los puntos 1 y 2 en [practica.py](https://github.com/AlanGMF/Unidades/blob/main/Unidad%2007/Sphinx/source/practica.py) y la documentacion generada con Sphinx en esta [carpeta](https://github.com/AlanGMF/Unidades/tree/main/Unidad%2007/Sphinx/_build/html)
